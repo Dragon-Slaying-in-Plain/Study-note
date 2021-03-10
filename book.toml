@@ -1,0 +1,22 @@
+[book]
+authors = ["MATRIXKOO"]
+description = "Powered by mdbook."
+language = "zh_CN"
+multilingual = false
+src = "src"
+title = "Study-note"
+
+
+[output.html]
+theme = "mytheme"
+default-theme = "rust"
+git-repository-url = "https://github.com/Dragon-Slaying-in-Plain/Study-note"
+
+
+[output.html.playground]
+editable = true
+copy-js = true
+
+[output.html.fold]
+enable = true
+level = 1
